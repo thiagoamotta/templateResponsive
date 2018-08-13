@@ -4,11 +4,21 @@ body{
     height: 100%;
     font-family: 'Quicksand', sans-serif;
 }
+div.carousel-inner{
+    max-height: 450px;
+}
+
+@media (min-width: 1170px){
+    
+    div.carousel-inner{
+        max-height: 650px;
+    }
+}
 div.container{
     padding-top: 50px;
 }
 nav{
-    z-index: 3;
+    z-index: 5;
 }
 .row{
     margin-bottom: 30px;
