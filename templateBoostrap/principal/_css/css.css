@@ -23,6 +23,7 @@ nav{
 }
 .row{
     width: 100%;
+    margin: 0px auto;
     margin-bottom: 20px;
     padding: 20px;
     border: 1px;
